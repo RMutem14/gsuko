@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nos Services - Gsuko Construct</title>
+    <link rel="shortcut icon" href="./images/logonumber.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/services.css">
 </head>
@@ -14,7 +16,7 @@
 <body>
     <header>
         <nav>
-            <img src="./images/logosociete.png" alt="le logo de la societe">
+            <img src="./images/logonumber.PNG" alt="le logo de la societe">
             <div class="navigation">
                 <ul>
                     <li>
@@ -184,7 +186,7 @@
         <!-- Service 1 - Architecture -->
         <div class="service-card">
             <div class="service-media">
-                <img src="./images/macon1.jpg" alt="Projet architectural moderne" class="service-img">
+                <img src="./images/architecture.jpg" alt="Projet architectural moderne" class="service-img">
             </div>
             <div class="service-content">
                 <span class="service-number">01</span>
@@ -233,12 +235,7 @@
         <!-- Service 2 - Génie Civil -->
         <div class="service-card">
             <div class="service-media">
-                <div class="service-video">
-                    <iframe width="560" height="415" src="https://www.youtube.com/embed/pbx6PpSd2K0?si=Obsfl5HkFdYeMjLr"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </div>
+                <img src="./images/genie.jpg" alt="Projet architectural moderne" class="service-img">
             </div>
             <div class="service-content">
                 <span class="service-number">02</span>

@@ -11,6 +11,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
     <link rel="stylesheet" href="assets/css/index.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
@@ -18,16 +19,16 @@
 <body>
     <header>
         <nav>
-            <img src="./images/logosociete.png" alt="le logo de la societe">
+            <img src="./images/logonumber.PNG" alt="le logo de la societe">
             <div class="navigation">
                 <ul>
                     <li>
-                        <a href="index.php" class="liens">
+                        <a href="index.php" class="liens active">
                             Acceuil
                         </a>
                     </li>
                     <li class="services-dropdown">
-                        <a href="services.php" class="liens active">
+                        <a href="services.php" class="liens">
                             Services <i class="fas fa-chevron-down"></i>
                         </a>
                         <div class="dropdown-content">
@@ -89,7 +90,7 @@
         </ul>
     </div>
     <div class="menu-overlay"></div>
-    
+
     <main>
         <section class="baniere">
             <video autoplay muted loop playsinline id="background-video">
@@ -258,14 +259,16 @@
 
                 <div class="testimonials-container">
                     <div class="slider-arrow prev"><i class="fas fa-chevron-left"></i></div>
-                    
+
                     <div class="testimonials-slider">
                         <div class="testimonials-track">
                             <!-- Témoignage 1 -->
                             <div class="testimonial-card">
                                 <p class="testimonial-content">
-                                    "Le projet a été livré avant la date prévue avec une qualité d'exécution remarquable.
-                                    L'équipe a su comprendre nos besoins spécifiques et proposer des solutions innovantes."
+                                    "Le projet a été livré avant la date prévue avec une qualité d'exécution
+                                    remarquable.
+                                    L'équipe a su comprendre nos besoins spécifiques et proposer des solutions
+                                    innovantes."
                                 </p>
                                 <div class="testimonial-meta">
                                     <div class="testimonial-avatar">C</div>
@@ -292,7 +295,8 @@
                             <!-- Témoignage 3 -->
                             <div class="testimonial-card">
                                 <p class="testimonial-content">
-                                    "Approche très professionnelle depuis l'étude de faisabilité jusqu'à la réception. Le
+                                    "Approche très professionnelle depuis l'étude de faisabilité jusqu'à la réception.
+                                    Le
                                     suivi régulier et la transparence sur les coûts ont été particulièrement appréciés."
                                 </p>
                                 <div class="testimonial-meta">
@@ -332,7 +336,7 @@
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="slider-arrow next"><i class="fas fa-chevron-right"></i></div>
 
                     <div class="slider-nav">
@@ -440,4 +444,5 @@
     <script src="assets/js/index.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
+
 </html>
