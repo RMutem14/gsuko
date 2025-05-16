@@ -1,479 +1,575 @@
 <!DOCTYPE html>
 <html lang="fr">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>À Propos - Gsuko Construct</title>
-    <link rel="shortcut icon" href="./images/logonumber.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="assets/css/header.css">
-    <link rel="stylesheet" href="assets/css/footer.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="assets/css/propos.css">
-</head>
+    <link
+      rel="shortcut icon"
+      href="./images/logonumber.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/header.css" />
+    <link rel="stylesheet" href="assets/css/footer.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/propos.css" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <nav>
-            <img src="./images/logonumber.PNG" alt="le logo de la societe">
-            <div class="navigation">
-                <ul>
-                    <li>
-                        <a href="index.php" class="liens">
-                            Acceuil
-                        </a>
-                    </li>
-                    <li class="services-dropdown">
-                        <a href="services.php" class="liens">
-                            Services <i class="fas fa-chevron-down"></i>
-                        </a>
-                        <div class="dropdown-content">
-                            <a href="architecture.php">Architecture</a>
-                            <a href="genie.php">Génie Civil</a>
-                            <a href="commerciale.php">Commerciale</a>
-                            <a href="hydro.php">Hydraulique</a>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="propos.php" class="liens active">
-                            A propos
-                        </a>
-                    </li>
-                    <li>
-                        <a href="realisation.php" class="liens">
-                            Réalisation
-                        </a>
-                    </li>
-                    <li>
-                        <a href="contact.php" class="liens">
-                            Contact
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="profil-buger">
-                <div class="burger"><i class="fa-solid fa-bars fa-xl"></i></div>
-            </div>
-            <button class="ct"><a href="contact.php" class="ct" style="padding: 0;">Faites votre devis</a></button>
-        </nav>
-    </header>
+      <nav>
+        <div class="nav-container">
+          <img
+            src="./images/logonumber.PNG"
+            alt="le logo de la societe"
+            class="logo"
+          />
 
-    <!-- Menu mobile -->
-    <div class="mobile-menu">
-        <div class="close-menu"><i class="fas fa-times"></i></div>
-        <ul>
-            <li>
-                <a href="index.php" class="liens">
-                    Acceuil
-                </a>
+          <!-- Navigation desktop -->
+          <div class="navigation">
+            <ul>
+              <li><a href="index.html" class="liens active">Accueil</a></li>
+              <li class="services-dropdown">
+                <a href="services.html" class="liens"
+                  >Services <i class="fas fa-chevron-down"></i
+                ></a>
+                <div class="dropdown-content">
+                  <a href="architecture.html">Architecture</a>
+                  <a href="genie.html">Génie Civil</a>
+                  <a href="commerciale.html">Commerciale</a>
+                  <a href="hydro.html">Hydraulique</a>
+                </div>
+              </li>
+              <li><a href="propos.html" class="liens">À propos</a></li>
+              <li><a href="realisation.html" class="liens">Réalisation</a></li>
+              <li><a href="contact.html" class="liens">Contact</a></li>
+            </ul>
+          </div>
+
+          <!-- Boutons côté droit -->
+          <div class="nav-right">
+            <button class="cta-btn">
+              <a href="contact.html">Faites votre devis</a>
+            </button>
+            <div class="burger"><i class="fa-solid fa-bars fa-xl"></i></div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Menu mobile -->
+      <div class="mobile-menu">
+        <div class="mobile-menu-container">
+          <div class="mobile-menu-header">
+            <img
+              src="./images/logonumber.PNG"
+              alt="le logo de la societe"
+              class="mobile-logo"
+            />
+            <div class="close-menu"><i class="fas fa-times"></i></div>
+          </div>
+          <ul>
+            <li><a href="index.html" class="active">Accueil</a></li>
+            <li class="mobile-services-dropdown">
+              <a href="services.html"
+                >Services <i class="fas fa-chevron-down"></i
+              ></a>
+              <div class="mobile-dropdown-content">
+                <a href="architecture.html">Architecture</a>
+                <a href="genie.html">Génie Civil</a>
+                <a href="commerciale.html">Commerciale</a>
+                <a href="hydro.html">Hydraulique</a>
+              </div>
             </li>
-            <li class="services-dropdown">
-                <a href="services.php" class="liens">
-                    Services
-                </a>
-                <ul class="services-submenu">
-                    <li><a href="#">Architecture</a></li>
-                    <li><a href="#">Genie Civil</a></li>
-                    <li><a href="#">Commerciale</a></li>
-                    <li><a href="#">Hydraulique</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="propos.php" class="liens active">
-                    A propos
-                </a>
-            </li>
-            <li>
-                <a href="realisation.php" class="liens">
-                    Réalisation
-                </a>
-            </li>
-            <li>
-                <a href="contact.php" class="liens">
-                    Contact
-                </a>
-            </li>
-        </ul>
-        <button class="ct" style="margin-top: 2rem;">Faites votre devis</button>
-    </div>
+            <li><a href="propos.html">À propos</a></li>
+            <li><a href="realisation.html">Réalisation</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <button class="mobile-cta-btn">
+            <a href="contact.html">Faites votre devis</a>
+          </button>
+        </div>
+      </div>
+    </header>
     <div class="menu-overlay"></div>
 
     <main>
-        <!-- Hero Section -->
-        <section class="about-hero">
-            <div class="about-hero-content">
-                <h1>Notre Histoire, Notre Engagement</h1>
-                <p>Depuis 2005, Gsuko Construct bâtit l'avenir avec excellence et innovation dans le secteur de la
-                    construction en RDC.</p>
+      <!-- Hero Section -->
+      <section class="about-hero">
+        <div class="about-hero-content">
+          <h1>Notre Histoire, Notre Engagement</h1>
+          <p>
+            Depuis 2005, Gsuko Construct bâtit l'avenir avec excellence et
+            innovation dans le secteur de la construction en RDC.
+          </p>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section class="about-section">
+        <div class="container">
+          <div class="section-header">
+            <h2>Qui Sommes-Nous ?</h2>
+            <p>
+              Gsuko Construct est bien plus qu'une entreprise de construction,
+              nous sommes des bâtisseurs de rêves et des créateurs d'espaces de
+              vie.
+            </p>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-card">
+              <i class="fas fa-bullseye"></i>
+              <h3>Notre Mission</h3>
+              <p>
+                Fournir des solutions de construction innovantes, durables et
+                adaptées aux besoins spécifiques de chaque client, tout en
+                respectant les délais et les budgets.
+              </p>
             </div>
-        </section>
 
-        <!-- About Section -->
-        <section class="about-section">
-            <div class="container">
-                <div class="section-header">
-                    <h2>Qui Sommes-Nous ?</h2>
-                    <p>Gsuko Construct est bien plus qu'une entreprise de construction, nous sommes des bâtisseurs de
-                        rêves et des créateurs d'espaces de vie.</p>
-                </div>
-
-                <div class="about-grid">
-                    <div class="about-card">
-                        <i class="fas fa-bullseye"></i>
-                        <h3>Notre Mission</h3>
-                        <p>Fournir des solutions de construction innovantes, durables et adaptées aux besoins
-                            spécifiques de chaque client, tout en respectant les délais et les budgets.</p>
-                    </div>
-
-                    <div class="about-card">
-                        <i class="fas fa-eye"></i>
-                        <h3>Notre Vision</h3>
-                        <p>Devenir le leader incontesté de la construction en RDC en promouvant l'excellence,
-                            l'innovation et le développement durable dans tous nos projets.</p>
-                    </div>
-
-                    <div class="about-card">
-                        <i class="fas fa-handshake"></i>
-                        <h3>Nos Valeurs</h3>
-                        <p>Intégrité, Qualité, Innovation, Respect de l'environnement et Engagement envers nos clients
-                            et nos collaborateurs.</p>
-                    </div>
-                </div>
+            <div class="about-card">
+              <i class="fas fa-eye"></i>
+              <h3>Notre Vision</h3>
+              <p>
+                Devenir le leader incontesté de la construction en RDC en
+                promouvant l'excellence, l'innovation et le développement
+                durable dans tous nos projets.
+              </p>
             </div>
-        </section>
 
-        <!-- History Section -->
-        <section class="history-section">
-            <div class="container">
-                <div class="section-header">
-                    <h2>Notre Parcours</h2>
-                    <p>L'évolution de Gsuko Construct à travers les années</p>
-                </div>
-
-                <div class="timeline-container">
-                    <div class="timeline-item">
-                        <div class="timeline-content">
-                            <div class="timeline-year">2005</div>
-                            <h3>Fondation</h3>
-                            <p>Création de Gsuko Construct par M. Gabriel Sukami avec une petite équipe spécialisée dans
-                                les travaux de maçonnerie résidentielle.</p>
-                        </div>
-                    </div>
-
-                    <div class="timeline-item">
-                        <div class="timeline-content">
-                            <div class="timeline-year">2010</div>
-                            <h3>Premier Grand Projet</h3>
-                            <p>Réalisation de notre premier projet commercial d'envergure : un centre commercial de 3
-                                étages à Kinshasa qui nous a fait connaître sur le marché.</p>
-                        </div>
-                    </div>
-
-                    <div class="timeline-item">
-                        <div class="timeline-content">
-                            <div class="timeline-year">2015</div>
-                            <h3>Certification ISO</h3>
-                            <p>Obtention de la certification ISO 9001 pour notre système de management de la qualité,
-                                marquant un tournant dans notre professionnalisme.</p>
-                        </div>
-                    </div>
-
-                    <div class="timeline-item">
-                        <div class="timeline-content">
-                            <div class="timeline-year">2018</div>
-                            <h3>Expansion Nationale</h3>
-                            <p>Ouverture de nos filiales à Lubumbashi et Goma, avec un effectif qui passe à 75 employés
-                                permanents et une couverture nationale.</p>
-                        </div>
-                    </div>
-
-                    <div class="timeline-item">
-                        <div class="timeline-content">
-                            <div class="timeline-year">2022</div>
-                            <h3>Innovation Durable</h3>
-                            <p>Lancement de notre département dédié aux constructions écologiques utilisant des
-                                matériaux locaux et des techniques durables.</p>
-                        </div>
-                    </div>
-
-                    <div class="timeline-item">
-                        <div class="timeline-content">
-                            <div class="timeline-year">2023</div>
-                            <h3>Reconnaissance</h3>
-                            <p>Prix d'excellence du meilleur constructeur en RDC avec plus de 150 projets réalisés et
-                                une équipe de 120 professionnels qualifiés.</p>
-                        </div>
-                    </div>
-                </div>
+            <div class="about-card">
+              <i class="fas fa-handshake"></i>
+              <h3>Nos Valeurs</h3>
+              <p>
+                Intégrité, Qualité, Innovation, Respect de l'environnement et
+                Engagement envers nos clients et nos collaborateurs.
+              </p>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
-        <!-- Team Section -->
-        <section class="team-section">
-            <div class="container">
-                <div class="section-header">
-                    <h2>Notre Équipe</h2>
-                    <p>Des professionnels qualifiés pour chaque aspect de votre projet</p>
-                </div>
+      <!-- History Section -->
+      <section class="history-section">
+        <div class="container">
+          <div class="section-header">
+            <h2>Notre Parcours</h2>
+            <p>L'évolution de Gsuko Construct à travers les années</p>
+          </div>
 
-                <!-- Filtres -->
-                <div class="filter-buttons">
-                    <button class="filter-btn active" data-filter="all">Tous</button>
-                    <button class="filter-btn" data-filter="management">Direction</button>
-                    <button class="filter-btn" data-filter="engineering">Ingénierie</button>
-                    <button class="filter-btn" data-filter="architecture">Architecture</button>
-                </div>
-
-                <!-- Grille des membres -->
-                <div class="team-grid">
-                    <!-- Direction -->
-                    <div class="team-card" data-category="management">
-                        <img src="images/XVQK3138.jpg"
-                            alt="Bruce Sumbu" class="team-img">
-                        <div class="team-info">
-                            <h3>Bruce Sumbu</h3>
-                            <span class="team-position">Directeur Général</span>
-                            <p>Fondateur et visionnaire</p>
-                        </div>
-                    </div>
-
-                    <!-- Architecture -->
-                    <div class="team-card" data-category="architecture">
-                        <img src="images/hztc2309.jpg"
-                            alt="Chadrack Konde" class="team-img">
-                        <div class="team-info">
-                            <h3>Chadrack Konde</h3>
-                            <span class="team-position">Architecte Principale</span>
-                            <p>Design et planification</p>
-                        </div>
-                    </div>
-
-                    <!-- Ingénierie -->
-                    <div class="team-card" data-category="engineering">
-                        <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
-                            alt="Alain Shabani" class="team-img">
-                        <div class="team-info">
-                            <h3>Alain Shabani</h3>
-                            <span class="team-position">Ingénieur en Chef</span>
-                            <p>Calculs et stabilité</p>
-                        </div>
-                    </div>
-
-                    <!-- Ingénierie -->
-                    <div class="team-card" data-category="engineering">
-                        <img src="images/exaucee.jpg"
-                            alt="exaucee" class="team-img">
-                        <div class="team-info">
-                            <h3>Exaucee</h3>
-                            <span class="team-position">Ingénieur Électricien</span>
-                            <p>Installations électriques</p>
-                        </div>
-                    </div>
-
-                    <!-- Architecture -->
-                    <div class="team-card" data-category="architecture">
-                        <img src="images/DNZC1043.JPG"
-                            alt="Merphy Tshilumba" class="team-img">
-                        <div class="team-info">
-                            <h3>Merphy Tshilumba</h3>
-                            <span class="team-position">Designer d'Intérieur</span>
-                            <p>Aménagements intérieurs</p>
-                        </div>
-                    </div>
-
-                    <!-- Direction -->
-                    <div class="team-card" data-category="management">
-                        <img src="images/WNOU6785.jpg"
-                            alt="Tabitha Bomasa" class="team-img">
-                        <div class="team-info">
-                            <h3>Tabitha Bomasa</h3>
-                            <span class="team-position">Directrice Financière</span>
-                            <p>Gestion et comptabilité</p>
-                        </div>
-                    </div>
-
-                    <!-- Architecture -->
-                    <div class="team-card" data-category="architecture">
-                        <img src="images/ygwq3943.jpg"
-                            alt="Davina Mbuyi" class="team-img">
-                        <div class="team-info">
-                            <h3>Davina Mbuyi</h3>
-                            <span class="team-position">Architecte Principale</span>
-                            <p>Design et planification</p>
-                        </div>
-                    </div>
-                </div>
+          <div class="timeline-container">
+            <div class="timeline-item">
+              <div class="timeline-content">
+                <div class="timeline-year">2005</div>
+                <h3>Fondation</h3>
+                <p>
+                  Création de Gsuko Construct par M. Gabriel Sukami avec une
+                  petite équipe spécialisée dans les travaux de maçonnerie
+                  résidentielle.
+                </p>
+              </div>
             </div>
-        </section>
 
-        <!-- Stats Section améliorée -->
-        <section class="stats-section">
-            <div class="container">
-                <div class="section-header">
-                    <h2>Notre Impact en Chiffres</h2>
-                    <p>Des réalisations concrètes qui témoignent de notre expertise</p>
-                </div>
-
-                <div class="stats-grid">
-                    <div class="stat-item">
-                        <div class="stat-number">18</div>
-                        <div class="stat-text">Ans d'Expérience</div>
-                    </div>
-
-                    <div class="stat-item">
-                        <div class="stat-number">150+</div>
-                        <div class="stat-text">Projets Réalisés</div>
-                    </div>
-
-                    <div class="stat-item">
-                        <div class="stat-number">250K+</div>
-                        <div class="stat-text">m² Construits</div>
-                    </div>
-
-                    <div class="stat-item">
-                        <div class="stat-number">98%</div>
-                        <div class="stat-text">Clients Satisfaits</div>
-                    </div>
-                </div>
+            <div class="timeline-item">
+              <div class="timeline-content">
+                <div class="timeline-year">2010</div>
+                <h3>Premier Grand Projet</h3>
+                <p>
+                  Réalisation de notre premier projet commercial d'envergure :
+                  un centre commercial de 3 étages à Kinshasa qui nous a fait
+                  connaître sur le marché.
+                </p>
+              </div>
             </div>
-        </section>
 
-        <!-- Nouvelle section témoignages -->
-        <section class="testimonials-section">
-            <div class="container">
-                <div class="section-header">
-                    <h2>Témoignages</h2>
-                    <p>Ce que nos clients disent de nous</p>
-                </div>
-
-                <div class="testimonials-container">
-                    <div class="testimonial-slider">
-                        <div class="testimonial-card">
-                            <div class="testimonial-content">
-                                <p>"Gsuko Construct a transformé notre vision en réalité. Leur professionnalisme et leur
-                                    attention aux détails ont dépassé nos attentes. Le projet a été livré à temps et
-                                    dans le budget prévu."</p>
-                            </div>
-                            <div class="testimonial-author">
-                                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Jean Mulumba"
-                                    class="author-img">
-                                <div class="author-info">
-                                    <h4>Jean Mulumba</h4>
-                                    <p>Directeur, Société ABC</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="testimonial-card">
-                            <div class="testimonial-content">
-                                <p>"Travailler avec Gsuko a été une expérience exceptionnelle. Leur équipe a su
-                                    comprendre nos besoins spécifiques et proposer des solutions innovantes. La qualité
-                                    de construction est remarquable."</p>
-                            </div>
-                            <div class="testimonial-author">
-                                <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sophie Kanda"
-                                    class="author-img">
-                                <div class="author-info">
-                                    <h4>Sophie Kanda</h4>
-                                    <p>Propriétaire, Résidence Les Palmiers</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="testimonial-card">
-                            <div class="testimonial-content">
-                                <p>"En tant qu'investisseur étranger, je cherchais une entreprise fiable en RDC. Gsuko a
-                                    été un partenaire idéal, transparent et professionnel à chaque étape de notre projet
-                                    hôtelier."</p>
-                            </div>
-                            <div class="testimonial-author">
-                                <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="David Müller"
-                                    class="author-img">
-                                <div class="author-info">
-                                    <h4>David Müller</h4>
-                                    <p>Investisseur International</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="testimonial-card">
-                            <div class="testimonial-content">
-                                <p>"Le suivi post-construction de Gsuko est exemplaire. Deux ans après la livraison, ils
-                                    restent disponibles pour toute question. C'est ce genre de service qui fait la
-                                    différence."</p>
-                            </div>
-                            <div class="testimonial-author">
-                                <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Grace Mbayo"
-                                    class="author-img">
-                                <div class="author-info">
-                                    <h4>Grace Mbayo</h4>
-                                    <p>Directrice, École Primaire Bondeko</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="timeline-item">
+              <div class="timeline-content">
+                <div class="timeline-year">2015</div>
+                <h3>Certification ISO</h3>
+                <p>
+                  Obtention de la certification ISO 9001 pour notre système de
+                  management de la qualité, marquant un tournant dans notre
+                  professionnalisme.
+                </p>
+              </div>
             </div>
-        </section>
+
+            <div class="timeline-item">
+              <div class="timeline-content">
+                <div class="timeline-year">2018</div>
+                <h3>Expansion Nationale</h3>
+                <p>
+                  Ouverture de nos filiales à Lubumbashi et Goma, avec un
+                  effectif qui passe à 75 employés permanents et une couverture
+                  nationale.
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-content">
+                <div class="timeline-year">2022</div>
+                <h3>Innovation Durable</h3>
+                <p>
+                  Lancement de notre département dédié aux constructions
+                  écologiques utilisant des matériaux locaux et des techniques
+                  durables.
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-content">
+                <div class="timeline-year">2023</div>
+                <h3>Reconnaissance</h3>
+                <p>
+                  Prix d'excellence du meilleur constructeur en RDC avec plus de
+                  150 projets réalisés et une équipe de 120 professionnels
+                  qualifiés.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Team Section -->
+      <section class="team-section">
+        <div class="container">
+          <div class="section-header">
+            <h2>Notre Équipe</h2>
+            <p>
+              Des professionnels qualifiés pour chaque aspect de votre projet
+            </p>
+          </div>
+
+          <!-- Filtres -->
+          <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">Tous</button>
+            <button class="filter-btn" data-filter="management">
+              Direction
+            </button>
+            <button class="filter-btn" data-filter="engineering">
+              Ingénierie
+            </button>
+            <button class="filter-btn" data-filter="architecture">
+              Architecture
+            </button>
+          </div>
+
+          <!-- Grille des membres -->
+          <div class="team-grid">
+            <!-- Direction -->
+            <div class="team-card" data-category="management">
+              <img
+                src="images/XVQK3138.jpg"
+                alt="Bruce Sumbu"
+                class="team-img"
+              />
+              <div class="team-info">
+                <h3>Bruce Sumbu</h3>
+                <span class="team-position">Directeur Général</span>
+                <p>Fondateur et visionnaire</p>
+              </div>
+            </div>
+
+            <!-- Architecture -->
+            <div class="team-card" data-category="architecture">
+              <img
+                src="images/hztc2309.jpg"
+                alt="Chadrack Konde"
+                class="team-img"
+              />
+              <div class="team-info">
+                <h3>Chadrack Konde</h3>
+                <span class="team-position">Architecte Principale</span>
+                <p>Design et planification</p>
+              </div>
+            </div>
+
+            <!-- Ingénierie -->
+            <div class="team-card" data-category="engineering">
+              <img
+                src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+                alt="Alain Shabani"
+                class="team-img"
+              />
+              <div class="team-info">
+                <h3>Alain Shabani</h3>
+                <span class="team-position">Ingénieur en Chef</span>
+                <p>Calculs et stabilité</p>
+              </div>
+            </div>
+
+            <!-- Ingénierie -->
+            <div class="team-card" data-category="engineering">
+              <img src="images/exaucee.jpg" alt="exaucee" class="team-img" />
+              <div class="team-info">
+                <h3>Exaucee</h3>
+                <span class="team-position">Ingénieur Électricien</span>
+                <p>Installations électriques</p>
+              </div>
+            </div>
+
+            <!-- Architecture -->
+            <div class="team-card" data-category="architecture">
+              <img
+                src="images/DNZC1043.JPG"
+                alt="Merphy Tshilumba"
+                class="team-img"
+              />
+              <div class="team-info">
+                <h3>Merphy Tshilumba</h3>
+                <span class="team-position">Designer d'Intérieur</span>
+                <p>Aménagements intérieurs</p>
+              </div>
+            </div>
+
+            <!-- Direction -->
+            <div class="team-card" data-category="management">
+              <img
+                src="images/WNOU6785.jpg"
+                alt="Tabitha Bomasa"
+                class="team-img"
+              />
+              <div class="team-info">
+                <h3>Tabitha Bomasa</h3>
+                <span class="team-position">Directrice Financière</span>
+                <p>Gestion et comptabilité</p>
+              </div>
+            </div>
+
+            <!-- Architecture -->
+            <div class="team-card" data-category="architecture">
+              <img
+                src="images/ygwq3943.jpg"
+                alt="Davina Mbuyi"
+                class="team-img"
+              />
+              <div class="team-info">
+                <h3>Davina Mbuyi</h3>
+                <span class="team-position">Architecte Principale</span>
+                <p>Design et planification</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Stats Section améliorée -->
+      <section class="stats-section">
+        <div class="container">
+          <div class="section-header">
+            <h2>Notre Impact en Chiffres</h2>
+            <p>Des réalisations concrètes qui témoignent de notre expertise</p>
+          </div>
+
+          <div class="stats-grid">
+            <div class="stat-item">
+              <div class="stat-number">18</div>
+              <div class="stat-text">Ans d'Expérience</div>
+            </div>
+
+            <div class="stat-item">
+              <div class="stat-number">150+</div>
+              <div class="stat-text">Projets Réalisés</div>
+            </div>
+
+            <div class="stat-item">
+              <div class="stat-number">250K+</div>
+              <div class="stat-text">m² Construits</div>
+            </div>
+
+            <div class="stat-item">
+              <div class="stat-number">98%</div>
+              <div class="stat-text">Clients Satisfaits</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Nouvelle section témoignages -->
+      <section class="testimonials-section">
+        <div class="container">
+          <div class="section-header">
+            <h2>Témoignages</h2>
+            <p>Ce que nos clients disent de nous</p>
+          </div>
+
+          <div class="testimonials-container">
+            <div class="testimonial-slider">
+              <div class="testimonial-card">
+                <div class="testimonial-content">
+                  <p>
+                    "Gsuko Construct a transformé notre vision en réalité. Leur
+                    professionnalisme et leur attention aux détails ont dépassé
+                    nos attentes. Le projet a été livré à temps et dans le
+                    budget prévu."
+                  </p>
+                </div>
+                <div class="testimonial-author">
+                  <img
+                    src="https://randomuser.me/api/portraits/men/32.jpg"
+                    alt="Jean Mulumba"
+                    class="author-img"
+                  />
+                  <div class="author-info">
+                    <h4>Jean Mulumba</h4>
+                    <p>Directeur, Société ABC</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="testimonial-card">
+                <div class="testimonial-content">
+                  <p>
+                    "Travailler avec Gsuko a été une expérience exceptionnelle.
+                    Leur équipe a su comprendre nos besoins spécifiques et
+                    proposer des solutions innovantes. La qualité de
+                    construction est remarquable."
+                  </p>
+                </div>
+                <div class="testimonial-author">
+                  <img
+                    src="https://randomuser.me/api/portraits/women/44.jpg"
+                    alt="Sophie Kanda"
+                    class="author-img"
+                  />
+                  <div class="author-info">
+                    <h4>Sophie Kanda</h4>
+                    <p>Propriétaire, Résidence Les Palmiers</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="testimonial-card">
+                <div class="testimonial-content">
+                  <p>
+                    "En tant qu'investisseur étranger, je cherchais une
+                    entreprise fiable en RDC. Gsuko a été un partenaire idéal,
+                    transparent et professionnel à chaque étape de notre projet
+                    hôtelier."
+                  </p>
+                </div>
+                <div class="testimonial-author">
+                  <img
+                    src="https://randomuser.me/api/portraits/men/75.jpg"
+                    alt="David Müller"
+                    class="author-img"
+                  />
+                  <div class="author-info">
+                    <h4>David Müller</h4>
+                    <p>Investisseur International</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="testimonial-card">
+                <div class="testimonial-content">
+                  <p>
+                    "Le suivi post-construction de Gsuko est exemplaire. Deux
+                    ans après la livraison, ils restent disponibles pour toute
+                    question. C'est ce genre de service qui fait la différence."
+                  </p>
+                </div>
+                <div class="testimonial-author">
+                  <img
+                    src="https://randomuser.me/api/portraits/women/68.jpg"
+                    alt="Grace Mbayo"
+                    class="author-img"
+                  />
+                  <div class="author-info">
+                    <h4>Grace Mbayo</h4>
+                    <p>Directrice, École Primaire Bondeko</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
-<footer>
-        <div class="footer-container">
-            <div class="footer-col footer-about">
-                <h3>Gsuko Construct</h3>
-                <p>Leader congolais en construction, génie civil et architecture, engagé dans le développement durable
-                    de la RDC.</p>
-                <div class="social-links">
-                    <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" class="social-link" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
-                    <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                    <a href="mailto:contact@gsuko-construct.cd" class="social-link" aria-label="Email"><i
-                            class="fas fa-envelope"></i></a>
-                </div>
-            </div>
-
-            <div class="footer-col footer-links">
-                <h3>Liens rapides</h3>
-                <ul>
-                    <li><a href="index.php">Accueil</a></li>
-                    <li><a href="services.php" class="active">Services</a></li>
-                    <li><a href="propos.php">À propos</a></li>
-                    <li><a href="realisation.php">Réalisation</a></li>
-                    <li><a href="contact.php">Contact</a></li>
-                </ul>
-            </div>
-
-            <div class="footer-col footer-links">
-                <h3>Nos services</h3>
-                <ul>
-                    <li><a href="architecture.php">Architecture</a></li>
-                    <li><a href="genie.php">Génie civil</a></li>
-                    <li><a href="commerciale.php">Construction commerciale</a></li>
-                    <li><a href="hydro.php">Ingénierie hydraulique</a></li>
-                    <li><a href="actualite.php">Blog</a></li>
-                </ul>
-            </div>
-
-            <div class="footer-col footer-contact">
-                <h3>Contact</h3>
-                <p><i class="fas fa-map-marker-alt"></i> 123 Avenue Lumumba, Gombe, Kinshasa, RDC</p>
-                <p><i class="fas fa-phone-alt"></i> +243 81 234 5678</p>
-                <p><i class="fas fa-envelope"></i> contact@gsuko-construct.cd</p>
-                <p><i class="fas fa-clock"></i> Lun-Ven: 8h00-17h00</p>
-            </div>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-col footer-about">
+          <h3>Gsuko Construct</h3>
+          <p>
+            Leader congolais en construction, génie civil et architecture,
+            engagé dans le développement durable de la RDC.
+          </p>
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="Facebook"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="#" class="social-link" aria-label="TikTok"
+              ><i class="fab fa-tiktok"></i
+            ></a>
+            <a href="#" class="social-link" aria-label="Instagram"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a
+              href="mailto:contact@gsuko-construct.cd"
+              class="social-link"
+              aria-label="Email"
+              ><i class="fas fa-envelope"></i
+            ></a>
+          </div>
         </div>
 
-        <div class="copyright">
-            <p>&copy; 2025 Gsuko Construct. Tous droits réservés. | Entreprise congolaise enregistrée sous le numéro
-                RC12345</p>
+        <div class="footer-col footer-links">
+          <h3>Liens rapides</h3>
+          <ul>
+            <li><a href="index.php">Accueil</a></li>
+            <li><a href="services.php" class="active">Services</a></li>
+            <li><a href="propos.php">À propos</a></li>
+            <li><a href="realisation.php">Réalisation</a></li>
+            <li><a href="contact.php">Contact</a></li>
+          </ul>
         </div>
+
+        <div class="footer-col footer-links">
+          <h3>Nos services</h3>
+          <ul>
+            <li><a href="architecture.php">Architecture</a></li>
+            <li><a href="genie.php">Génie civil</a></li>
+            <li><a href="commerciale.php">Construction commerciale</a></li>
+            <li><a href="hydro.php">Ingénierie hydraulique</a></li>
+            <li><a href="actualite.php">Blog</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col footer-contact">
+          <h3>Contact</h3>
+          <p>
+            <i class="fas fa-map-marker-alt"></i> 123 Avenue Lumumba, Gombe,
+            Kinshasa, RDC
+          </p>
+          <p><i class="fas fa-phone-alt"></i> +243 81 234 5678</p>
+          <p><i class="fas fa-envelope"></i> contact@gsuko-construct.cd</p>
+          <p><i class="fas fa-clock"></i> Lun-Ven: 8h00-17h00</p>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <p>
+          &copy; 2025 Gsuko Construct. Tous droits réservés. | Entreprise
+          congolaise enregistrée sous le numéro RC12345
+        </p>
+      </div>
     </footer>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/propos.js"></script>
-</body>
-
+  </body>
 </html>

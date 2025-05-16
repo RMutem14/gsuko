@@ -1,228 +1,322 @@
 <!DOCTYPE html>
 <html lang="fr">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact - Gsuko Construct</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="assets/css/header.css">
-    <link rel="stylesheet" href="assets/css/footer.css">
-    <link rel="stylesheet" href="assets/css/contact.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/header.css" />
+    <link rel="stylesheet" href="assets/css/footer.css" />
+    <link rel="stylesheet" href="assets/css/contact.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <nav>
-            <img src="./images/logonumber.PNG" alt="le logo de la societe">
-            <div class="navigation">
-                <ul>
-                    <li>
-                        <a href="index.php" class="liens">
-                            Acceuil
-                        </a>
-                    </li>
-                    <li>
-                        <a href="services.php" class="liens">
-                            Services
-                        </a>
-                    </li>
-                    <li>
-                        <a href="propos.php" class="liens">
-                            À propos
-                        </a>
-                    </li>
-                    <li>
-                        <a href="realisation.php" class="liens">
-                            Réalisations
-                        </a>
-                    </li>
-                    <li>
-                        <a href="contact.php" class="liens active">
-                            Contact
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="profil-buger">
-                <div class="burger"><i class="fa-solid fa-bars fa-2xl"></i></div>
-            </div>
-            <button class="ct">Faites votre devis</button>
-        </nav>
+      <nav>
+        <div class="nav-container">
+          <img
+            src="./images/logonumber.PNG"
+            alt="le logo de la societe"
+            class="logo"
+          />
+
+          <!-- Navigation desktop -->
+          <div class="navigation">
+            <ul>
+              <li><a href="index.html" class="liens active">Accueil</a></li>
+              <li class="services-dropdown">
+                <a href="services.html" class="liens"
+                  >Services <i class="fas fa-chevron-down"></i
+                ></a>
+                <div class="dropdown-content">
+                  <a href="architecture.html">Architecture</a>
+                  <a href="genie.html">Génie Civil</a>
+                  <a href="commerciale.html">Commerciale</a>
+                  <a href="hydro.html">Hydraulique</a>
+                </div>
+              </li>
+              <li><a href="propos.html" class="liens">À propos</a></li>
+              <li><a href="realisation.html" class="liens">Réalisation</a></li>
+              <li><a href="contact.html" class="liens">Contact</a></li>
+            </ul>
+          </div>
+
+          <!-- Boutons côté droit -->
+          <div class="nav-right">
+            <button class="cta-btn">
+              <a href="contact.html">Faites votre devis</a>
+            </button>
+            <div class="burger"><i class="fa-solid fa-bars fa-xl"></i></div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Menu mobile -->
+      <div class="mobile-menu">
+        <div class="mobile-menu-container">
+          <div class="mobile-menu-header">
+            <img
+              src="./images/logonumber.PNG"
+              alt="le logo de la societe"
+              class="mobile-logo"
+            />
+            <div class="close-menu"><i class="fas fa-times"></i></div>
+          </div>
+          <ul>
+            <li><a href="index.html" class="active">Accueil</a></li>
+            <li class="mobile-services-dropdown">
+              <a href="services.html"
+                >Services <i class="fas fa-chevron-down"></i
+              ></a>
+              <div class="mobile-dropdown-content">
+                <a href="architecture.html">Architecture</a>
+                <a href="genie.html">Génie Civil</a>
+                <a href="commerciale.html">Commerciale</a>
+                <a href="hydro.html">Hydraulique</a>
+              </div>
+            </li>
+            <li><a href="propos.html">À propos</a></li>
+            <li><a href="realisation.html">Réalisation</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <button class="mobile-cta-btn">
+            <a href="contact.html">Faites votre devis</a>
+          </button>
+        </div>
+      </div>
     </header>
 
     <!-- Hero Section -->
     <section class="contact-hero">
-        <h1>Contactez-nous</h1>
-        <p>Nous sommes à votre écoute pour répondre à toutes vos questions et discuter de vos projets</p>
+      <h1>Contactez-nous</h1>
+      <p>
+        Nous sommes à votre écoute pour répondre à toutes vos questions et
+        discuter de vos projets
+      </p>
     </section>
 
     <div class="main-content">
-        <!-- Contact Section -->
-        <section class="contact-section">
-            <div class="contact-info">
-                <h2>Informations de contact</h2>
-                <p>N'hésitez pas à nous contacter pour toute demande d'information ou de devis. Notre équipe vous
-                    répondra dans les plus brefs délais.</p>
+      <!-- Contact Section -->
+      <section class="contact-section">
+        <div class="contact-info">
+          <h2>Informations de contact</h2>
+          <p>
+            N'hésitez pas à nous contacter pour toute demande d'information ou
+            de devis. Notre équipe vous répondra dans les plus brefs délais.
+          </p>
 
-                <div class="contact-details">
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-map-marker-alt"></i>
-                        </div>
-                        <div class="contact-text">
-                            <h3>Adresse</h3>
-                            <p>123 Avenue Lumumba, Gombe<br>Kinshasa, RDC</p>
-                        </div>
-                    </div>
-
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-phone-alt"></i>
-                        </div>
-                        <div class="contact-text">
-                            <h3>Téléphone</h3>
-                            <p><a href="tel:+243812345678">+243 81 234 5678</a><br>
-                                <a href="tel:+243897654321">+243 89 765 4321</a>
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-envelope"></i>
-                        </div>
-                        <div class="contact-text">
-                            <h3>Email</h3>
-                            <p><a href="mailto:contact@gsuko-construct.cd">contact@gsuko-construct.cd</a><br>
-                                <a href="mailto:commercial@gsuko-construct.cd">commercial@gsuko-construct.cd</a>
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-clock"></i>
-                        </div>
-                        <div class="contact-text">
-                            <h3>Heures d'ouverture</h3>
-                            <p>Lundi - Vendredi: 8h00 - 17h00<br>
-                                Samedi: 9h00 - 13h00</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="social-media">
-                    <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                    <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                </div>
+          <div class="contact-details">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-text">
+                <h3>Adresse</h3>
+                <p>123 Avenue Lumumba, Gombe<br />Kinshasa, RDC</p>
+              </div>
             </div>
 
-            <div class="contact-form">
-                <h2>Envoyez-nous un message</h2>
-                <form id="contactForm">
-                    <div class="form-group">
-                        <label for="name">Nom complet *</label>
-                        <input type="text" id="name" name="name" class="form-control" required>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="email">Email *</label>
-                        <input type="email" id="email" name="email" class="form-control" required>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="phone">Téléphone</label>
-                        <input type="tel" id="phone" name="phone" class="form-control">
-                    </div>
-
-                    <div class="form-group">
-                        <label for="subject">Sujet *</label>
-                        <select id="subject" name="subject" class="form-control" required>
-                            <option value="">Sélectionnez un sujet</option>
-                            <option value="devis">Demande de devis</option>
-                            <option value="information">Demande d'information</option>
-                            <option value="recrutement">Recrutement</option>
-                            <option value="partenariat">Partenariat</option>
-                            <option value="autre">Autre</option>
-                        </select>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="message">Message *</label>
-                        <textarea id="message" name="message" class="form-control" required></textarea>
-                    </div>
-
-                    <button type="submit" class="submit-btn">Envoyer le message</button>
-                </form>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-phone-alt"></i>
+              </div>
+              <div class="contact-text">
+                <h3>Téléphone</h3>
+                <p>
+                  <a href="tel:+243812345678">+243 81 234 5678</a><br />
+                  <a href="tel:+243897654321">+243 89 765 4321</a>
+                </p>
+              </div>
             </div>
-        </section>
 
-        <!-- Map Section -->
-        <section class="map-section">
-            <h2 class="section-title">Nous trouver</h2>
-            <div class="map-container">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.490374317615!2d15.30075831533108!3d-4.322879146893075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a6a3393e2a5d5a5%3A0x1a6a3393e2a5d5a5!2sKinshasa%2C%20RD%20Congo!5e0!3m2!1sfr!2sfr!4v1623256789012!5m2!1sfr!2sfr"
-                    allowfullscreen="" loading="lazy"></iframe>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-text">
+                <h3>Email</h3>
+                <p>
+                  <a href="mailto:contact@gsuko-construct.cd"
+                    >contact@gsuko-construct.cd</a
+                  ><br />
+                  <a href="mailto:commercial@gsuko-construct.cd"
+                    >commercial@gsuko-construct.cd</a
+                  >
+                </p>
+              </div>
             </div>
-        </section>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-clock"></i>
+              </div>
+              <div class="contact-text">
+                <h3>Heures d'ouverture</h3>
+                <p>
+                  Lundi - Vendredi: 8h00 - 17h00<br />
+                  Samedi: 9h00 - 13h00
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="social-media">
+            <a href="#" class="social-link" aria-label="Facebook"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="#" class="social-link" aria-label="LinkedIn"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a href="#" class="social-link" aria-label="Twitter"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a href="#" class="social-link" aria-label="Instagram"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <h2>Envoyez-nous un message</h2>
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="name">Nom complet *</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                class="form-control"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email *</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="form-control"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Téléphone</label>
+              <input type="tel" id="phone" name="phone" class="form-control" />
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Sujet *</label>
+              <select id="subject" name="subject" class="form-control" required>
+                <option value="">Sélectionnez un sujet</option>
+                <option value="devis">Demande de devis</option>
+                <option value="information">Demande d'information</option>
+                <option value="recrutement">Recrutement</option>
+                <option value="partenariat">Partenariat</option>
+                <option value="autre">Autre</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message *</label>
+              <textarea
+                id="message"
+                name="message"
+                class="form-control"
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">Envoyer le message</button>
+          </form>
+        </div>
+      </section>
+
+      <!-- Map Section -->
+      <section class="map-section">
+        <h2 class="section-title">Nous trouver</h2>
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.490374317615!2d15.30075831533108!3d-4.322879146893075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a6a3393e2a5d5a5%3A0x1a6a3393e2a5d5a5!2sKinshasa%2C%20RD%20Congo!5e0!3m2!1sfr!2sfr!4v1623256789012!5m2!1sfr!2sfr"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+      </section>
     </div>
 
-<footer>
-        <div class="footer-container">
-            <div class="footer-col footer-about">
-                <h3>Gsuko Construct</h3>
-                <p>Leader congolais en construction, génie civil et architecture, engagé dans le développement durable
-                    de la RDC.</p>
-                <div class="social-links">
-                    <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" class="social-link" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
-                    <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                    <a href="mailto:contact@gsuko-construct.cd" class="social-link" aria-label="Email"><i
-                            class="fas fa-envelope"></i></a>
-                </div>
-            </div>
-
-            <div class="footer-col footer-links">
-                <h3>Liens rapides</h3>
-                <ul>
-                    <li><a href="index.php">Accueil</a></li>
-                    <li><a href="services.php" class="active">Services</a></li>
-                    <li><a href="propos.php">À propos</a></li>
-                    <li><a href="realisation.php">Réalisation</a></li>
-                    <li><a href="contact.php">Contact</a></li>
-                </ul>
-            </div>
-
-            <div class="footer-col footer-links">
-                <h3>Nos services</h3>
-                <ul>
-                    <li><a href="architecture.php">Architecture</a></li>
-                    <li><a href="genie.php">Génie civil</a></li>
-                    <li><a href="commerciale.php">Construction commerciale</a></li>
-                    <li><a href="hydro.php">Ingénierie hydraulique</a></li>
-                    <li><a href="actualite.php">Blog</a></li>
-                </ul>
-            </div>
-
-            <div class="footer-col footer-contact">
-                <h3>Contact</h3>
-                <p><i class="fas fa-map-marker-alt"></i> 123 Avenue Lumumba, Gombe, Kinshasa, RDC</p>
-                <p><i class="fas fa-phone-alt"></i> +243 81 234 5678</p>
-                <p><i class="fas fa-envelope"></i> contact@gsuko-construct.cd</p>
-                <p><i class="fas fa-clock"></i> Lun-Ven: 8h00-17h00</p>
-            </div>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-col footer-about">
+          <h3>Gsuko Construct</h3>
+          <p>
+            Leader congolais en construction, génie civil et architecture,
+            engagé dans le développement durable de la RDC.
+          </p>
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="Facebook"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="#" class="social-link" aria-label="TikTok"
+              ><i class="fab fa-tiktok"></i
+            ></a>
+            <a href="#" class="social-link" aria-label="Instagram"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a
+              href="mailto:contact@gsuko-construct.cd"
+              class="social-link"
+              aria-label="Email"
+              ><i class="fas fa-envelope"></i
+            ></a>
+          </div>
         </div>
 
-        <div class="copyright">
-            <p>&copy; 2025 Gsuko Construct. Tous droits réservés. | Entreprise congolaise enregistrée sous le numéro
-                RC12345</p>
+        <div class="footer-col footer-links">
+          <h3>Liens rapides</h3>
+          <ul>
+            <li><a href="index.php">Accueil</a></li>
+            <li><a href="services.php" class="active">Services</a></li>
+            <li><a href="propos.php">À propos</a></li>
+            <li><a href="realisation.php">Réalisation</a></li>
+            <li><a href="contact.php">Contact</a></li>
+          </ul>
         </div>
+
+        <div class="footer-col footer-links">
+          <h3>Nos services</h3>
+          <ul>
+            <li><a href="architecture.php">Architecture</a></li>
+            <li><a href="genie.php">Génie civil</a></li>
+            <li><a href="commerciale.php">Construction commerciale</a></li>
+            <li><a href="hydro.php">Ingénierie hydraulique</a></li>
+            <li><a href="actualite.php">Blog</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col footer-contact">
+          <h3>Contact</h3>
+          <p>
+            <i class="fas fa-map-marker-alt"></i> 123 Avenue Lumumba, Gombe,
+            Kinshasa, RDC
+          </p>
+          <p><i class="fas fa-phone-alt"></i> +243 81 234 5678</p>
+          <p><i class="fas fa-envelope"></i> contact@gsuko-construct.cd</p>
+          <p><i class="fas fa-clock"></i> Lun-Ven: 8h00-17h00</p>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <p>
+          &copy; 2025 Gsuko Construct. Tous droits réservés. | Entreprise
+          congolaise enregistrée sous le numéro RC12345
+        </p>
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>

@@ -14,78 +14,64 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <img src="./images/logonumber.PNG" alt="le logo de la societe">
+<header>
+    <nav>
+        <div class="nav-container">
+            <img src="./images/logonumber.PNG" alt="le logo de la societe" class="logo">
+            
+            <!-- Navigation desktop -->
             <div class="navigation">
                 <ul>
-                    <li>
-                        <a href="index.php" class="liens">
-                            Acceuil
-                        </a>
-                    </li>
+                    <li><a href="index.html" class="liens active">Accueil</a></li>
                     <li class="services-dropdown">
-                        <a href="services.php" class="liens active">
-                            Services <i class="fas fa-chevron-down"></i>
-                        </a>
+                        <a href="services.html" class="liens">Services <i class="fas fa-chevron-down"></i></a>
                         <div class="dropdown-content">
-                            <a href="architecture.php">Architecture</a>
-                            <a href="genie.php">Génie Civil</a>
-                            <a href="commerciale.php">Commerciale</a>
-                            <a href="hydro.php">Hydraulique</a>
+                            <a href="architecture.html">Architecture</a>
+                            <a href="genie.html">Génie Civil</a>
+                            <a href="commerciale.html">Commerciale</a>
+                            <a href="hydro.html">Hydraulique</a>
                         </div>
                     </li>
-                    <li>
-                        <a href="propos.php" class="liens">
-                            A propos
-                        </a>
-                    </li>
-                    <li>
-                        <a href="realisation.php" class="liens">
-                            Réalisation
-                        </a>
-                    </li>
-                    <li>
-                        <a href="contact.php" class="liens">
-                            Contact
-                        </a>
-                    </li>
+                    <li><a href="propos.html" class="liens">À propos</a></li>
+                    <li><a href="realisation.html" class="liens">Réalisation</a></li>
+                    <li><a href="contact.html" class="liens">Contact</a></li>
                 </ul>
             </div>
-            <div class="profil-buger">
+            
+            <!-- Boutons côté droit -->
+            <div class="nav-right">
+                <button class="cta-btn"><a href="contact.html">Faites votre devis</a></button>
                 <div class="burger"><i class="fa-solid fa-bars fa-xl"></i></div>
             </div>
-            <button class="ct"><a href="contact.php" class="ct" style="padding: 0;">Faites votre devis</a></button>
-        </nav>
-    </header>
+        </div>
+    </nav>
 
     <!-- Menu mobile -->
     <div class="mobile-menu">
-        <div class="close-menu"><i class="fas fa-times"></i></div>
-        <ul>
-            <li>
-                <a href="index.php">Acceuil</a>
-            </li>
-            <li class="services-dropdown">
-                <a href="services.php" class="active">Services <i class="fas fa-chevron-down"></i></a>
-                <div class="dropdown-content">
-                    <a href="architecture.php">Architecture</a>
-                    <a href="genie.php">Génie Civil</a>
-                    <a href="commerciale.php">Commerciale</a>
-                    <a href="hydro.php">Hydraulique</a>
-                </div>
-            </li>
-            <li>
-                <a href="propos.php">À propos</a>
-            </li>
-            <li>
-                <a href="realisation.php">Réalisation</a>
-            </li>
-            <li>
-                <a href="contact.php">Contact</a>
-            </li>
-        </ul>
+        <div class="mobile-menu-container">
+            <div class="mobile-menu-header">
+                <img src="./images/logonumber.PNG" alt="le logo de la societe" class="mobile-logo">
+                <div class="close-menu"><i class="fas fa-times"></i></div>
+            </div>
+            <ul>
+                <li><a href="index.html" class="active">Accueil</a></li>
+                <li class="mobile-services-dropdown">
+                    <a href="services.html">Services <i class="fas fa-chevron-down"></i></a>
+                    <div class="mobile-dropdown-content">
+                        <a href="architecture.html">Architecture</a>
+                        <a href="genie.html">Génie Civil</a>
+                        <a href="commerciale.html">Commerciale</a>
+                        <a href="hydro.html">Hydraulique</a>
+                    </div>
+                </li>
+                <li><a href="propos.html">À propos</a></li>
+                <li><a href="realisation.html">Réalisation</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button class="mobile-cta-btn"><a href="contact.html">Faites votre devis</a></button>
+        </div>
     </div>
+</header>
     <div class="menu-overlay"></div>
 
     <section class="blog-hero"

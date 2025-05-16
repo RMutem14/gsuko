@@ -1,296 +1,402 @@
 <!DOCTYPE html>
 <html lang="fr">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Espaces Commerciaux Modernes - Blog Gsuko Construct</title>
-    <meta name="description"
-        content="Découvrez comment Gsuko Construct révolutionne les espaces commerciaux en RDC avec des designs innovants qui dynamisent l'économie locale">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="assets/css/header.css">
-    <link rel="stylesheet" href="assets/css/footer.css">
-    <link rel="stylesheet" href="assets/css/commerciale.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <meta
+      name="description"
+      content="Découvrez comment Gsuko Construct révolutionne les espaces commerciaux en RDC avec des designs innovants qui dynamisent l'économie locale"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/header.css" />
+    <link rel="stylesheet" href="assets/css/footer.css" />
+    <link rel="stylesheet" href="assets/css/commerciale.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <header>
-        <nav>
-            <img src="./images/logonumber.PNG" alt="le logo de la societe">
-            <div class="navigation">
-                <ul>
-                    <li>
-                        <a href="index.php" class="liens">
-                            Acceuil
-                        </a>
-                    </li>
-                    <li class="services-dropdown">
-                        <a href="services.php" class="liens active">
-                            Services <i class="fas fa-chevron-down"></i>
-                        </a>
-                        <div class="dropdown-content">
-                            <a href="architecture.php">Architecture</a>
-                            <a href="genie.php">Génie Civil</a>
-                            <a href="commerciale.php">Commerciale</a>
-                            <a href="hydro.php">Hydraulique</a>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="propos.php" class="liens">
-                            A propos
-                        </a>
-                    </li>
-                    <li>
-                        <a href="realisation.php" class="liens">
-                            Réalisation
-                        </a>
-                    </li>
-                    <li>
-                        <a href="contact.php" class="liens">
-                            Contact
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="profil-buger">
-                <div class="burger"><i class="fa-solid fa-bars fa-xl"></i></div>
-            </div>
-            <button class="ct"><a href="contact.php" class="ct" style="padding: 0;">Faites votre devis</a></button>
-        </nav>
-    </header>
+      <nav>
+        <div class="nav-container">
+          <img
+            src="./images/logonumber.PNG"
+            alt="le logo de la societe"
+            class="logo"
+          />
 
-    <!-- Menu mobile -->
-    <div class="mobile-menu">
-        <div class="close-menu"><i class="fas fa-times"></i></div>
-        <ul>
-            <li>
-                <a href="index.php">Acceuil</a>
-            </li>
-            <li class="services-dropdown">
-                <a href="services.php" class="active">Services <i class="fas fa-chevron-down"></i></a>
+          <!-- Navigation desktop -->
+          <div class="navigation">
+            <ul>
+              <li><a href="index.html" class="liens active">Accueil</a></li>
+              <li class="services-dropdown">
+                <a href="services.html" class="liens"
+                  >Services <i class="fas fa-chevron-down"></i
+                ></a>
                 <div class="dropdown-content">
-                    <a href="architecture.php">Architecture</a>
-                    <a href="genie.php">Génie Civil</a>
-                    <a href="commerciale.php">Commerciale</a>
-                    <a href="hydro.php">Hydraulique</a>
+                  <a href="architecture.html">Architecture</a>
+                  <a href="genie.html">Génie Civil</a>
+                  <a href="commerciale.html">Commerciale</a>
+                  <a href="hydro.html">Hydraulique</a>
                 </div>
+              </li>
+              <li><a href="propos.html" class="liens">À propos</a></li>
+              <li><a href="realisation.html" class="liens">Réalisation</a></li>
+              <li><a href="contact.html" class="liens">Contact</a></li>
+            </ul>
+          </div>
+
+          <!-- Boutons côté droit -->
+          <div class="nav-right">
+            <button class="cta-btn">
+              <a href="contact.html">Faites votre devis</a>
+            </button>
+            <div class="burger"><i class="fa-solid fa-bars fa-xl"></i></div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Menu mobile -->
+      <div class="mobile-menu">
+        <div class="mobile-menu-container">
+          <div class="mobile-menu-header">
+            <img
+              src="./images/logonumber.PNG"
+              alt="le logo de la societe"
+              class="mobile-logo"
+            />
+            <div class="close-menu"><i class="fas fa-times"></i></div>
+          </div>
+          <ul>
+            <li><a href="index.html" class="active">Accueil</a></li>
+            <li class="mobile-services-dropdown">
+              <a href="services.html"
+                >Services <i class="fas fa-chevron-down"></i
+              ></a>
+              <div class="mobile-dropdown-content">
+                <a href="architecture.html">Architecture</a>
+                <a href="genie.html">Génie Civil</a>
+                <a href="commerciale.html">Commerciale</a>
+                <a href="hydro.html">Hydraulique</a>
+              </div>
             </li>
-            <li>
-                <a href="propos.php">À propos</a>
-            </li>
-            <li>
-                <a href="realisation.php">Réalisation</a>
-            </li>
-            <li>
-                <a href="contact.php">Contact</a>
-            </li>
-        </ul>
-    </div>
+            <li><a href="propos.html">À propos</a></li>
+            <li><a href="realisation.html">Réalisation</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <button class="mobile-cta-btn">
+            <a href="contact.html">Faites votre devis</a>
+          </button>
+        </div>
+      </div>
+    </header>
     <div class="menu-overlay"></div>
 
     <!-- Hero Section -->
-    <section class="blog-hero"
-        style="background: linear-gradient(rgba(44, 62, 80, 0.8), rgba(44, 62, 80, 0.8)), url('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');">
-        <div class="container">
-            <h1>Révolution des Espaces Commerciaux en RDC</h1>
-            <p>Concevoir des lieux qui dynamisent l'économie locale et redéfinissent l'expérience client</p>
-        </div>
+    <section
+      class="blog-hero"
+      style="
+        background: linear-gradient(
+            rgba(44, 62, 80, 0.8),
+            rgba(44, 62, 80, 0.8)
+          ),
+          url('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+      "
+    >
+      <div class="container">
+        <h1>Révolution des Espaces Commerciaux en RDC</h1>
+        <p>
+          Concevoir des lieux qui dynamisent l'économie locale et redéfinissent
+          l'expérience client
+        </p>
+      </div>
     </section>
 
     <div class="main-content">
-        <article class="blog-article">
-            <div class="article-header">
-                <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
-                    alt="Kin Plaza - Centre commercial moderne" class="article-image">
-                <div class="article-title">
-                    <h1>Kin Plaza : La Nouvelle Référence Commerciale à Kinshasa</h1>
-                    <div class="article-meta">
-                        <span><i class="far fa-calendar-alt"></i> 22 Mai 2023</span>
-                        <span><i class="far fa-user"></i> Par Sarah Makengo</span>
-                        <span><i class="far fa-clock"></i> 6 min de lecture</span>
-                    </div>
-                </div>
+      <article class="blog-article">
+        <div class="article-header">
+          <img
+            src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+            alt="Kin Plaza - Centre commercial moderne"
+            class="article-image"
+          />
+          <div class="article-title">
+            <h1>Kin Plaza : La Nouvelle Référence Commerciale à Kinshasa</h1>
+            <div class="article-meta">
+              <span><i class="far fa-calendar-alt"></i> 22 Mai 2023</span>
+              <span><i class="far fa-user"></i> Par Sarah Makengo</span>
+              <span><i class="far fa-clock"></i> 6 min de lecture</span>
             </div>
+          </div>
+        </div>
 
-            <div class="article-content">
-                <h2>Un Concept Commercial Révolutionnaire</h2>
-                <p>Le centre commercial Kin Plaza, conçu par Gsuko Construct, redéfinit complètement l'expérience
-                    d'achat à Kinshasa en combinant modernité internationale et authenticité congolaise. Ce projet phare
-                    établit de nouveaux standards pour les espaces commerciaux en Afrique centrale.</p>
+        <div class="article-content">
+          <h2>Un Concept Commercial Révolutionnaire</h2>
+          <p>
+            Le centre commercial Kin Plaza, conçu par Gsuko Construct, redéfinit
+            complètement l'expérience d'achat à Kinshasa en combinant modernité
+            internationale et authenticité congolaise. Ce projet phare établit
+            de nouveaux standards pour les espaces commerciaux en Afrique
+            centrale.
+          </p>
 
-                <img src="https://images.unsplash.com/photo-1581539250439-c96689b516dd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
-                    alt="Entrée principale du Kin Plaza">
+          <img
+            src="https://images.unsplash.com/photo-1581539250439-c96689b516dd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+            alt="Entrée principale du Kin Plaza"
+          />
 
-                <p>Notre approche innovante repose sur trois piliers fondamentaux :</p>
+          <p>
+            Notre approche innovante repose sur trois piliers fondamentaux :
+          </p>
 
-                <ul>
-                    <li><strong>Mixité commerciale équilibrée</strong> : 60% d'enseignes internationales et 40% de
-                        commerces locaux soigneusement sélectionnés</li>
-                    <li><strong>Flexibilité architecturale</strong> : Des espaces modulables qui s'adaptent à
-                        l'évolution des besoins commerciaux</li>
-                    <li><strong>Durabilité énergétique</strong> : Système de gestion énergétique intelligent réduisant
-                        la consommation de 35%</li>
-                    <li><strong>Expérience client premium</strong> : Design intérieur inspiré des motifs culturels
-                        congolais avec un confort climatique optimal</li>
-                </ul>
+          <ul>
+            <li>
+              <strong>Mixité commerciale équilibrée</strong> : 60% d'enseignes
+              internationales et 40% de commerces locaux soigneusement
+              sélectionnés
+            </li>
+            <li>
+              <strong>Flexibilité architecturale</strong> : Des espaces
+              modulables qui s'adaptent à l'évolution des besoins commerciaux
+            </li>
+            <li>
+              <strong>Durabilité énergétique</strong> : Système de gestion
+              énergétique intelligent réduisant la consommation de 35%
+            </li>
+            <li>
+              <strong>Expérience client premium</strong> : Design intérieur
+              inspiré des motifs culturels congolais avec un confort climatique
+              optimal
+            </li>
+          </ul>
 
-                <h2>Chiffres Clés et Impact Économique</h2>
+          <h2>Chiffres Clés et Impact Économique</h2>
 
-                <div class="stats-grid">
-                    <div class="stat-card">
-                        <div class="stat-number">25,000</div>
-                        <div class="stat-label">m² de surface commerciale</div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-number">120</div>
-                        <div class="stat-label">commerces installés</div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-number">800</div>
-                        <div class="stat-label">emplois directs créés</div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-number">40%</div>
-                        <div class="stat-label">d'entreprises locales</div>
-                    </div>
-                </div>
-
-                <p>En seulement 6 mois d'exploitation, Kin Plaza a déjà généré un impact économique significatif sur la
-                    région, avec une augmentation de 28% du chiffre d'affaires global des commerces du quartier.</p>
-
-                <img src="https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
-                    alt="Allée centrale du Kin Plaza">
-
-                <h2>Innovations Architecturales</h2>
-                <p>Le design de Kin Plaza intègre plusieurs innovations majeures :</p>
-
-                <ul>
-                    <li><strong>Toiture photovoltaïque</strong> : Couvrant 30% des besoins énergétiques</li>
-                    <li><strong>Système de climatisation naturelle</strong> : Utilisant la ventilation transversale et
-                        les plantes purificatrices</li>
-                    <li><strong>Espace multifonctionnel central</strong> : Convertible en marché artisanal, espace
-                        événementiel ou zone de restauration</li>
-                    <li><strong>Signalétique immersive</strong> : Combinaison de technologies digitales et d'art mural
-                        local</li>
-                </ul>
-
-                <blockquote>
-                    "Kin Plaza n'est pas qu'un centre commercial, c'est un catalyseur économique et social. Nous avons
-                    conçu un espace qui célèbre le commerce moderne tout en valorisant l'artisanat et la culture
-                    congolaise."
-                    <cite>- Sarah Makengo, Chef de Projet</cite>
-                </blockquote>
-
-                <h2>Impact Urbain et Développement Local</h2>
-                <p>L'implantation de Kin Plaza a transformé tout son environnement urbain :</p>
-
-                <img src="https://images.unsplash.com/photo-1600607688969-a5bfa64630b4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
-                    alt="Zone environnante du Kin Plaza">
-
-                <ul>
-                    <li><strong>Dynamisation du quartier</strong> : +40% de fréquentation des commerces alentours</li>
-                    <li><strong>Amélioration des infrastructures</strong> : Réaménagement des routes et espaces publics
-                        adjacents</li>
-                    <li><strong>Programme de formation</strong> : 200 jeunes formés aux métiers du commerce et de la
-                        logistique</li>
-                    <li><strong>Partenariats locaux</strong> : 15 coopératives artisanales intégrées à la chaîne
-                        d'approvisionnement</li>
-                </ul>
-
-                <p>Ce projet s'inscrit dans notre vision plus large de développement urbain durable, où chaque
-                    construction doit générer des retombées positives pour l'ensemble de la communauté.</p>
+          <div class="stats-grid">
+            <div class="stat-card">
+              <div class="stat-number">25,000</div>
+              <div class="stat-label">m² de surface commerciale</div>
             </div>
-        </article>
-
-        <section class="related-articles">
-            <h2 class="section-title">Explorez Nos Autres Réalisations</h2>
-            <div class="blog-grid">
-                <article class="blog-card">
-                    <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
-                        alt="Résidence haut de gamme">
-                    <div class="blog-card-content">
-                        <h3>Résidence Les Palmiers</h3>
-                        <p>Un complexe résidentiel élégant combinant luxe moderne et solutions bioclimatiques.</p>
-                        <a href="#" class="read-more">Lire l'article <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </article>
-
-                <article class="blog-card">
-                    <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
-                        alt="Siège social entreprise">
-                    <div class="blog-card-content">
-                        <h3>Siège Social BCDC</h3>
-                        <p>Architecture corporate innovante pour la Banque Commerciale du Congo.</p>
-                        <a href="#" class="read-more">Lire l'article <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </article>
-
-                <article class="blog-card">
-                    <img src="https://images.unsplash.com/photo-1600607688969-a5bfa64630b4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
-                        alt="Marché moderne">
-                    <div class="blog-card-content">
-                        <h3>Marché Moderne de Limete</h3>
-                        <p>Réinvention des marchés traditionnels avec infrastructures modernes.</p>
-                        <a href="#" class="read-more">Lire l'article <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </article>
+            <div class="stat-card">
+              <div class="stat-number">120</div>
+              <div class="stat-label">commerces installés</div>
             </div>
-        </section>
+            <div class="stat-card">
+              <div class="stat-number">800</div>
+              <div class="stat-label">emplois directs créés</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">40%</div>
+              <div class="stat-label">d'entreprises locales</div>
+            </div>
+          </div>
+
+          <p>
+            En seulement 6 mois d'exploitation, Kin Plaza a déjà généré un
+            impact économique significatif sur la région, avec une augmentation
+            de 28% du chiffre d'affaires global des commerces du quartier.
+          </p>
+
+          <img
+            src="https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+            alt="Allée centrale du Kin Plaza"
+          />
+
+          <h2>Innovations Architecturales</h2>
+          <p>Le design de Kin Plaza intègre plusieurs innovations majeures :</p>
+
+          <ul>
+            <li>
+              <strong>Toiture photovoltaïque</strong> : Couvrant 30% des besoins
+              énergétiques
+            </li>
+            <li>
+              <strong>Système de climatisation naturelle</strong> : Utilisant la
+              ventilation transversale et les plantes purificatrices
+            </li>
+            <li>
+              <strong>Espace multifonctionnel central</strong> : Convertible en
+              marché artisanal, espace événementiel ou zone de restauration
+            </li>
+            <li>
+              <strong>Signalétique immersive</strong> : Combinaison de
+              technologies digitales et d'art mural local
+            </li>
+          </ul>
+
+          <blockquote>
+            "Kin Plaza n'est pas qu'un centre commercial, c'est un catalyseur
+            économique et social. Nous avons conçu un espace qui célèbre le
+            commerce moderne tout en valorisant l'artisanat et la culture
+            congolaise."
+            <cite>- Sarah Makengo, Chef de Projet</cite>
+          </blockquote>
+
+          <h2>Impact Urbain et Développement Local</h2>
+          <p>
+            L'implantation de Kin Plaza a transformé tout son environnement
+            urbain :
+          </p>
+
+          <img
+            src="https://images.unsplash.com/photo-1600607688969-a5bfa64630b4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+            alt="Zone environnante du Kin Plaza"
+          />
+
+          <ul>
+            <li>
+              <strong>Dynamisation du quartier</strong> : +40% de fréquentation
+              des commerces alentours
+            </li>
+            <li>
+              <strong>Amélioration des infrastructures</strong> : Réaménagement
+              des routes et espaces publics adjacents
+            </li>
+            <li>
+              <strong>Programme de formation</strong> : 200 jeunes formés aux
+              métiers du commerce et de la logistique
+            </li>
+            <li>
+              <strong>Partenariats locaux</strong> : 15 coopératives artisanales
+              intégrées à la chaîne d'approvisionnement
+            </li>
+          </ul>
+
+          <p>
+            Ce projet s'inscrit dans notre vision plus large de développement
+            urbain durable, où chaque construction doit générer des retombées
+            positives pour l'ensemble de la communauté.
+          </p>
+        </div>
+      </article>
+
+      <section class="related-articles">
+        <h2 class="section-title">Explorez Nos Autres Réalisations</h2>
+        <div class="blog-grid">
+          <article class="blog-card">
+            <img
+              src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+              alt="Résidence haut de gamme"
+            />
+            <div class="blog-card-content">
+              <h3>Résidence Les Palmiers</h3>
+              <p>
+                Un complexe résidentiel élégant combinant luxe moderne et
+                solutions bioclimatiques.
+              </p>
+              <a href="#" class="read-more"
+                >Lire l'article <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </article>
+
+          <article class="blog-card">
+            <img
+              src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+              alt="Siège social entreprise"
+            />
+            <div class="blog-card-content">
+              <h3>Siège Social BCDC</h3>
+              <p>
+                Architecture corporate innovante pour la Banque Commerciale du
+                Congo.
+              </p>
+              <a href="#" class="read-more"
+                >Lire l'article <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </article>
+
+          <article class="blog-card">
+            <img
+              src="https://images.unsplash.com/photo-1600607688969-a5bfa64630b4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+              alt="Marché moderne"
+            />
+            <div class="blog-card-content">
+              <h3>Marché Moderne de Limete</h3>
+              <p>
+                Réinvention des marchés traditionnels avec infrastructures
+                modernes.
+              </p>
+              <a href="#" class="read-more"
+                >Lire l'article <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </article>
+        </div>
+      </section>
     </div>
 
-<footer>
-        <div class="footer-container">
-            <div class="footer-col footer-about">
-                <h3>Gsuko Construct</h3>
-                <p>Leader congolais en construction, génie civil et architecture, engagé dans le développement durable
-                    de la RDC.</p>
-                <div class="social-links">
-                    <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" class="social-link" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
-                    <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                    <a href="mailto:contact@gsuko-construct.cd" class="social-link" aria-label="Email"><i
-                            class="fas fa-envelope"></i></a>
-                </div>
-            </div>
-
-            <div class="footer-col footer-links">
-                <h3>Liens rapides</h3>
-                <ul>
-                    <li><a href="index.php">Accueil</a></li>
-                    <li><a href="services.php" class="active">Services</a></li>
-                    <li><a href="propos.php">À propos</a></li>
-                    <li><a href="realisation.php">Réalisation</a></li>
-                    <li><a href="contact.php">Contact</a></li>
-                </ul>
-            </div>
-
-            <div class="footer-col footer-links">
-                <h3>Nos services</h3>
-                <ul>
-                    <li><a href="architecture.php">Architecture</a></li>
-                    <li><a href="genie.php">Génie civil</a></li>
-                    <li><a href="commerciale.php">Construction commerciale</a></li>
-                    <li><a href="hydro.php">Ingénierie hydraulique</a></li>
-                    <li><a href="actualite.php">Blog</a></li>
-                </ul>
-            </div>
-
-            <div class="footer-col footer-contact">
-                <h3>Contact</h3>
-                <p><i class="fas fa-map-marker-alt"></i> 123 Avenue Lumumba, Gombe, Kinshasa, RDC</p>
-                <p><i class="fas fa-phone-alt"></i> +243 81 234 5678</p>
-                <p><i class="fas fa-envelope"></i> contact@gsuko-construct.cd</p>
-                <p><i class="fas fa-clock"></i> Lun-Ven: 8h00-17h00</p>
-            </div>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-col footer-about">
+          <h3>Gsuko Construct</h3>
+          <p>
+            Leader congolais en construction, génie civil et architecture,
+            engagé dans le développement durable de la RDC.
+          </p>
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="Facebook"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="#" class="social-link" aria-label="TikTok"
+              ><i class="fab fa-tiktok"></i
+            ></a>
+            <a href="#" class="social-link" aria-label="Instagram"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a
+              href="mailto:contact@gsuko-construct.cd"
+              class="social-link"
+              aria-label="Email"
+              ><i class="fas fa-envelope"></i
+            ></a>
+          </div>
         </div>
 
-        <div class="copyright">
-            <p>&copy; 2025 Gsuko Construct. Tous droits réservés. | Entreprise congolaise enregistrée sous le numéro
-                RC12345</p>
+        <div class="footer-col footer-links">
+          <h3>Liens rapides</h3>
+          <ul>
+            <li><a href="index.php">Accueil</a></li>
+            <li><a href="services.php" class="active">Services</a></li>
+            <li><a href="propos.php">À propos</a></li>
+            <li><a href="realisation.php">Réalisation</a></li>
+            <li><a href="contact.php">Contact</a></li>
+          </ul>
         </div>
+
+        <div class="footer-col footer-links">
+          <h3>Nos services</h3>
+          <ul>
+            <li><a href="architecture.php">Architecture</a></li>
+            <li><a href="genie.php">Génie civil</a></li>
+            <li><a href="commerciale.php">Construction commerciale</a></li>
+            <li><a href="hydro.php">Ingénierie hydraulique</a></li>
+            <li><a href="actualite.php">Blog</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col footer-contact">
+          <h3>Contact</h3>
+          <p>
+            <i class="fas fa-map-marker-alt"></i> 123 Avenue Lumumba, Gombe,
+            Kinshasa, RDC
+          </p>
+          <p><i class="fas fa-phone-alt"></i> +243 81 234 5678</p>
+          <p><i class="fas fa-envelope"></i> contact@gsuko-construct.cd</p>
+          <p><i class="fas fa-clock"></i> Lun-Ven: 8h00-17h00</p>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <p>
+          &copy; 2025 Gsuko Construct. Tous droits réservés. | Entreprise
+          congolaise enregistrée sous le numéro RC12345
+        </p>
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>
